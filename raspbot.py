@@ -38,7 +38,7 @@ def handle(msg):
         # using openweathermap api
 
         # Enter your API key here
-        api_key = "306581cb91f8cb855e3c4c9c44a8c0af"
+        api_key = "**Insert here API key**"
 
         # base_url variable to store url
         base_url = "http://api.openweathermap.org/data/2.5/weather?"
@@ -154,7 +154,7 @@ def handle(msg):
             bot.sendDocument(chat_id, "https://tenor.com/view/gerryscotti-cadutalibera-insomnia-gif-12874972")
 
 
-bot = telepot.Bot('1046835468:AAHC85xY6sJUnxltSyz0cZCy2ZNFbFgbA6E')
+bot = telepot.Bot('**Insert here Telegram Bot key**')
 MessageLoop(bot, handle).run_as_thread()
 print ('I am listening ...')
 
